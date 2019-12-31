@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url("https://fonts.googleapis.com/css?family=VT323");
+body{
+	background-color: #6BA1CA;
+	text-align: center;
+}
+.img{
+	margin-top: 200px;
+	color: #fff;
+	font-size: 5em;
+	text-shadow: 2px 5px #272634;
+}
+.numero{
+	font-family: 'VT323', cursive;
+	color: #fff;
+	font-size: 8em;
+	margin-top: -0.4em;
+	text-shadow: 5px 5px #272634;
+}
+.leyenda{
+	font-family: 'VT323';
+	color: #504b4b;
+	font-size: 2.6em;
+	margin-top: -0.9em;
+}
+a {
+	text-decoration: none;
+  }
+  
+  
+  .btn {
+	border-style: solid;
+	border-width: 4px;
+	border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+	border-image-repeat: space;
+	border-image-width: 2;
+	border-image-slice: 2;
+	border-image-outset: 2;
+	position: relative;
+	display: inline-block;
+	margin: 4px;
+	padding: 10px 20px;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	color: white;
+	background-color: MediumSeaGreen;
+	font-family: 'VT323';
+	font-size: 2.6em;
+  }
+ 
+  /*@media (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+	.btn {
+	  border-image-repeat: space;
+	}
+  }
+  
+  .btn::after {
+	position: absolute;
+	top: -4px;
+	bottom: -4px;
+	right: -4px;
+	left: -4px;
+	content: "";
+	box-shadow: inset -4px -4px SeaGreen;
+  }
+  
+  .btn:focus::after,
+  .btn:hover::after {
+	box-shadow: inset -6px -6px SeaGreen;
+  }*/
